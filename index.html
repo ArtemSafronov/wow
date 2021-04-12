@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./adaptive/adaptive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>RZD_test Safronov Artem</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header__flex-container">
+                <div class="header__flex-container-left">
+                    <div class="header__social">
+                        <div class="header__social-vk"><a href="#"><img src="./img/vk.svg" alt="vk"></a></div>
+                        <div class="header__social-inst"><a href="#"><img src="./img/inst.svg" alt="inst"></a></div>
+                        <div class="header__social-youtube"><a href="#"><img src="./img/youtube.svg" alt="youtube"></a></div>
+                        <div class="header__social-ok"><a href="#"><img src="./img/ok.svg" alt="ok"></a></div>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-icon"><img src="./img/search.svg" alt="search"></div>
+                        <div class="header__search-text">Поиск</div>
+                    </div>
+                </div>
+                <div class="header__flex-container-right">
+                    <div class="header__pooreyes">
+                        <a class="header__pooreyes-a" href="#">
+                            <div class="header__pooreyes-glasses"><img src="./img/glasses.svg" alt="pooreyes"></div>
+                            <div class="header__pooreyes-text">Версия для слабовидящих</div>
+                        </a>
+                    </div>
+                    <div class="header__language">
+                        <a class="header__language-a" href="#">
+                            <div class="header__language-rus">Rus</div>
+                            <div class="header__image-polygon"><img src="./img/Polygon 1.svg" alt="poly"></div>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="line"></div>
+        <div class="header__part-two-width-container">
+            <div class="header__part-two-flex-container">
+                <div class="header__part-two-flex-container-left">
+                    <div class="header__part-two-flex-container-left-logo"><img src="./img/Russian_Railways_Logo 1.svg" alt="logo"></div>
+                    <div class="header__part-two-flex-container-left-menu">
+                        <ul>
+                            <a class="header__part-two-flex-container-left-menu-item-1" href="#"><li>Наша деятельность</li></a>
+                            <a class="header__part-two-flex-container-left-menu-item-2" href="#"><li>Каталог</li></a>
+                            <a class="header__part-two-flex-container-left-menu-item-3" href="#"><li>Новости</li></a>
+                            <a class="header__part-two-flex-container-left-menu-item-4" href="#"><li>Контакты</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__part-two-flex-container-right">
+                    <a href="#">
+                        <div class="header__part-two-flex-container-right-button">
+                            <div class="header__part-two-flex-container-right-button-icon"><img src="./img/ion_person-outline.svg" alt="icon"></div>
+                            <div class="header__part-two-flex-container-right-button-text">Личный кабинет</div>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="slider">
+                <div class="slider-dots">
+                    <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+                </div>
+                <div class="item">
+                    <img class="item_image" src="./img/rzd_banner.jpg" alt="Первый слайд">
+                    <div class="banner__common">
+                        <div class="banner__width-container">
+                            <div class="banner__flex-container">
+                                <div class="banner__left-container">
+                                    <div class="banner__left-container-title">Большие возможности<br>великой компании</div>
+                                    <div class="banner__left-container-subtitle">Весь спектр услуг теперь за рубежом</div>
+                                    <a href="#">
+                                        <div class="banner__left-container-button"><p>Узнать подробнее</p></div>
+                                    </a>
+                                </div>
+                                
+                                <div class="banner__middle-container">Смотреть видео</div>
+                                    <a class="banner__play-icon" href="#"><img src="./img/Polygon 2.svg" alt=""></a>
+                                    <a class="banner__right-container" href="#">
+                                        <div class="banner__right-container-circle"></div>
+                                        <div class="banner__right-container-border"></div>
+                                    </a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="item">
+                    <img class="item_image" src="./img/rzd_banner_2.jpg" alt="Второй слайд">
+                    <div class="banner__common">
+                        <div class="banner__width-container">
+                            <div class="banner__flex-container">
+                                <div class="banner__left-container">
+                                    <div class="banner__left-container-title">Большие возможности<br>великой компании</div>
+                                    <div class="banner__left-container-subtitle">Весь спектр услуг теперь за рубежом</div>
+                                    <a href="#">
+                                        <div class="banner__left-container-button"><p>Узнать подробнее</p></div>
+                                    </a>
+                                </div>
+                                
+                                <div class="banner__middle-container">Смотреть видео</div>
+                                <a class="banner__play-icon" href="#"><img src="./img/Polygon 2.svg" alt=""></a>
+                                <a class="banner__right-container" href="#">
+                                    <div class="banner__right-container-circle"></div>
+                                    <div class="banner__right-container-border"></div>
+                                </a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="item">
+                    <img class="item_image" src="./img/rzd_banner_3.jpg" alt="Третий слайд">
+                    <div class="banner__common">
+                        <div class="banner__width-container">
+                            <div class="banner__flex-container">
+                                <div class="banner__left-container">
+                                    <div class="banner__left-container-title">Большие возможности<br>великой компании</div>
+                                    <div class="banner__left-container-subtitle">Весь спектр услуг теперь за рубежом</div>
+                                    <a href="#">
+                                        <div class="banner__left-container-button"><p>Узнать подробнее</p></div>
+                                    </a>
+                                </div>
+                                
+                                <div class="banner__middle-container">Смотреть видео</div>
+                                <a class="banner__play-icon" href="#"><img src="./img/Polygon 2.svg" alt=""></a>
+                                <a class="banner__right-container" href="#">
+                                    <div class="banner__right-container-circle"></div>
+                                    <div class="banner__right-container-border"></div>
+                                </a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section>
+            <div class="project__common-container">                
+                <div class="project__width-container">
+                    <div class="project__left-container">
+                        <div class="project__left-container-title">Факты<br>о компании</div>
+                        <div class="project__left-flex-container-subtitle">
+                            <div class="project__left-flex-container-subtitle-line"></div>
+                            <div class="project__left-flex-container-subtitle-text">Проекты</div>
+                        </div>
+                        <div class="project__left-container-list">
+                            <ul class="project__left-container-list-items">
+                                <li class="project__left-container-list-item-1">Люди</li>
+                                <li class="project__left-container-list-item-2">Экология</li>
+                                <li class="project__left-container-list-item-3">Грузы</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="project__right-container">
+                        <div class="project__right-container-ellipse"><img src="./img/Ellipse 5.svg" alt="ellipse"></div>
+                        <div class="project__right-container-flex-container">
+                            <div class="project__right-container-number">40</div>
+                            <div class="project__right-container-text">стран</div>
+                        </div>
+                        <div class="project__right-container-desc">
+                            Реализуем проекты по различным направлениям деятельности более чем в 40 странах и осуществляем пассажирское и грузовое сообщение более чем в 23 страны Европы, Азии, СНГ и Балтии
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="catalogue__common-container">
+                <div class="catalogue__width-container">
+                    <div class="catalogue__top-flex-container">
+                        <div class="catalogue__top-flex-container-left-text">Каталог услуг</div>
+                        <div class="catalogue__top-flex-container-right-common">
+                            <div class="catalogue__top-flex-container-right-text">Смотреть все проекты</div>
+                            <div class="catalogue__top-flex-container-right-arrow"><img src="./img/small_arrow.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="catalogue__cards-flex-container">
+                        <div class="catalogue__cards-column-1">
+                            <div class="catalogue__wrap">
+                                <div class="catalogue__title-1">Строительство вокзалов</div>
+                                <div class="catalogue__subtitle-1">Реализация намеченных плановых<br>заданий влечет за собой процесс<br>внедрения.</div>
+                                <div class="hover"></div>
+                            </div>
+                            <div class="catalogue__wrap-2">
+                                <div class="catalogue__title-1">Обучение персонала</div>
+                                <div class="catalogue__subtitle-1">Реализация намеченных плановых<br>заданий влечет за собой процесс<br>внедрения.</div>
+                                <div class="hover"></div>
+                            </div>
+                        </div>
+                        <div class="catalogue__cards-column-2">
+                            <div class="catalogue__wrap-3">
+                                <div class="catalogue__title-1">Строительство<br>железнодорожных путей</div>
+                                <div class="catalogue__subtitle-3">Реализация намеченных плановых<br>заданий влечет за собой процесс<br>внедрения.</div>
+                                <div class="hover"></div>
+                            </div>
+                            <div class="catalogue__wrap-4">
+                                <div class="catalogue__title-1">Строительство вокзалов</div>
+                                <div class="catalogue__subtitle-1">Реализация намеченных плановых<br>заданий влечет за собой процесс<br>внедрения.</div>
+                                <div class="hover"></div>
+                            </div>
+                        </div>
+                        <div class="catalogue__cards-column-3">
+                            <div class="catalogue__wrap-5">
+                                <div class="catalogue__title-1">Организация питания<br>в составах</div>
+                                <div class="catalogue__subtitle-5">Реализация намеченных плановых<br>заданий влечет за собой процесс<br>внедрения.</div>
+                                <div class="hover"></div>
+                            </div>
+                            <div class="catalogue__wrap-6">
+                                <div class="catalogue__title-6">Ознакомьтесь со всеми<br>предложениями<br>компании</div>
+                                <div class="catalogue__subtitle-1"></div>
+                                <div class="hover"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="crew__container">
+                <div class="crew__width-container">
+                    <div class="crew__common-flex-container">
+                        <div class="crew__left-block">
+                            <div class="crew__sign"><img src="./img/sign.svg" alt=""></div>
+                            <div class="crew__title">Мы все как одна дружная<br>команда</div>
+                                <div class="crew__subtitle">Задача организации, в особенности же сложившаяся структура организации требуют от нас анализа существенных финансовых и административных условий. Идейные соображения высшего порядка, 
+                                а также начало повседневной работы по формированию позиции обеспечивает широкому кругу (специалистов) участие в формировании модели развития.
+                                </div>
+                                <div class="crew__name">Иванов Иван Иванович</div>
+                                <div class="crew__work">Управляющий отделением<br>"РЖД" Москва</div>
+                            </div>
+                        <div class="crew__right-block"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="event__container">
+                <div class="event__width-container">
+                    <div class="event__common-flex-container">
+                        <div class="event__left-flex-container">
+                            <div class="event__title">Наши мероприятия</div>
+                            <div class="event__image"></div>
+                            <div class="event__date">08.10.2020</div>
+                            <div class="event__subtitle-1">Обучение новых кадровых сотрудников</div>
+                            <div class="event__subtitle-2">Задача организации, в особенности же сложившаяся структура<br>организации требуют от нас анализа существенных ...</div>
+                            <div class="event__details__flex-container">
+                                <div class="event__details-title">Подробнее</div>
+                                <div class="event__details-arrow"><img src="./img/event-arrow.svg" alt=""></div>
+                            </div>
+                        </div>
+                            <div class="event__right-width-container">
+                                
+                                <div class="calendar">
+                                    <div class="calendar__flex-container">
+                                        <div class="calendar__block">
+                                            <div class="calendar-text">Октябрь<br>2020</div>
+                                        </div>
+                                        <div class="calendar__arrows">
+                                            <img src="./img/Previous.svg" alt="" class="previous">
+                                            <img src="./img/Next.svg" alt="" class="next">
+                                        </div>
+                                    </div>
+                                    <div class="date">
+                                        <div class="day">Пн</div>
+                                        <div class="day">Вт</div>
+                                        <div class="day">Ср</div>
+                                        <div class="day">Чт</div>
+                                        <div class="day">Пт</div>
+                                        <div class="day">Сб</div>
+                                        <div class="day">Вс</div>
+                                        <div class="number"></div>
+                                        <div class="number"></div>
+                                        <div class="number"></div>
+                                        <div class="number">1</div>
+                                        <div class="number">2</div>
+                                        <div class="number">3</div>
+                                        <div class="number">4</div>
+                                        <div class="number">5</div>
+                                        <div class="number">6</div>
+                                        <div class="number">7</div>
+                                        <div class="number active">8</div>
+                                        <div class="number">9</div>
+                                        <div class="number">10</div>
+                                        <div class="number">11</div>
+                                        <div class="number">12</div>
+                                        <div class="number">13</div>
+                                        <div class="number">14</div>
+                                        <div class="number">15</div>
+                                        <div class="number">16</div>
+                                        <div class="number">17</div>
+                                        <div class="number">18</div>
+                                        <div class="number">19</div>
+                                        <div class="number">20</div>
+                                        <div class="number">21</div>
+                                        <div class="number">22</div>
+                                        <div class="number">23</div>
+                                        <div class="number">24</div>
+                                        <div class="number">25</div>
+                                        <div class="number">26</div>
+                                        <div class="number">27</div>
+                                        <div class="number">28</div>
+                                        <div class="number">29</div>
+                                        <div class="number">30</div>
+                                        <div class="number">31</div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer__width-container">
+                <div class="footer__flex-container">
+                    <div class="footer__left-block">
+                        <div class="footer__logo"><img src="./img/Russian_Railways_Logo 1.svg" alt=""></div>
+                    </div>
+                    <div class="footer__middle-block">
+                        <div class="footer__middle-block-flex-container">
+                            <ul>
+                                <a class="footer__middle-block-flex-container-menu-item-1" href="#"><li>Наша деятельность</li></a>
+                                <a class="footer__middle-block-flex-container-menu-item-2" href="#"><li>Каталог</li></a>
+                                <a class="footer__middle-block-flex-container-menu-item-3" href="#"><li>Новости</li></a>
+                                <a class="footer__middle-block-flex-container-menu-item-4" href="#"><li>Контакты</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__right-block">
+                        <div class="footer__right-tel">8 800 775-00-00</div>
+                        <div class="footer__right-text">звонок бесплатный для всех регионов РФ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__second-width-container">
+            <div class="footer__second-flex-container">
+                <div class="footer__second-left">© ОАО "РЖД", 2003 - 2021</div>
+                <div class="footer__second-middle">Политика обработки персональных данных в ОАО "РЖД"</div>
+                <div class="footer__second-right">
+                    <div class="footer__social-vk"><a href="#"><img src="./img/vk.svg" alt="vk"></a></div>
+                    <div class="footer__social-inst"><a href="#"><img src="./img/inst.svg" alt="inst"></a></div>
+                    <div class="footer__social-youtube"><a href="#"><img src="./img/youtube.svg" alt="youtube"></a></div>
+                    <div class="footer__social-ok"><a href="#"><img src="./img/ok.svg" alt="ok"></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+
+    <section>
+    <div class="animation__container">
+        <div class="animation__width-container">
+            <div class="animation__flex-container">
+                <div class="animation__logo">Joint Base</div>
+                <div class="animation__list">
+                    <ul>
+                        <li class="item1">For Investors</li>
+                        <li class="item2">JB Labs</li>
+                        <li class="item3">Our Story</li>
+                        <li class="item4">FAQ</li>
+                        <li class="item5">Investor Sign In</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="just__circle" data-aos="zoom-in">
+                <p>scroll</p>
+            </div>
+            <div class="left__block-second" data-aos="fade-up">
+                <img src="./img/girl.png" alt="">
+            </div>
+            <div class="flex__blocks">
+                <div class="left__block" data-aos="fade-up">
+                    We are a venture<br>builder for tech-<br>enabledprivate<br>equity
+                </div>
+                <div class="right__block" data-aos="fade-right"> 
+                    <img src="./img/office.jpg" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./js/app.js"></script>
+<script src="./js/banner_slider.js"></script>
+
+</body>
+</html>
